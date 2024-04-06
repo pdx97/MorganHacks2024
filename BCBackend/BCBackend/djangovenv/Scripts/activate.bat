@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Jabri\OneDrive\Documents\MorganHack2024\BlankCareers\MorganHacks2024\BCBackend\djangovenv
+set VIRTUAL_ENV=C:\Users\Jabri\Documents\MorganHack2024\BlankCareers\MorganHacks2024\BCBackend\BCBackend\djangovenv
 
 if not defined PROMPT set PROMPT=$P$G
 
