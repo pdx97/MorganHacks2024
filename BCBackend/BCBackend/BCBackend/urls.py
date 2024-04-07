@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from userData2.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('timeline', TimelineView.as_view(), name="TimelineView")
 ]
