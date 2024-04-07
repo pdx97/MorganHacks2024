@@ -20,5 +20,6 @@ from userData2.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('timeline', TimelineView.as_view(), name="TimelineView")
+    path('timeline/', TimelineView.as_view(), name="TimelineView"),
+    path('UserForm/', UserFormView.as_view(), name="Form input")
 ]
